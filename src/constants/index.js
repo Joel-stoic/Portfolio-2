@@ -58,13 +58,13 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-    subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+    title: 'Twitter Clone',
+    desc: 'Twitter Clone Web Application — Built a full-stack social media platform using the MERN stack (MongoDB, Express.js, React.js, Node.js) with core Twitter-like features. Implemented secure JWT-based authentication for login and signup. Integrated Cloudinary for image uploads and used TanStack Query for efficient data fetching and state management. Designed a responsive UI with HTML, CSS, and DaisyUI. The app supports user registration, post creation with media, and dynamic timelines.',
+    subdesc: 'Technologies: React.js, Node.js, Express.js, MongoDB, Mongoose, JWT, TanStack Query, Cloudinary, HTML5, CSS3, DaisyUI.',
+
+    href: 'https://twitter2-clone.onrender.com/',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    logo: '/assets/twitter1.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -95,13 +95,14 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-    subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+    title: 'PortFolio Website',
+    desc: 'Developed a dynamic and visually engaging portfolio website using React.js, Tailwind CSS, and Framer Motion for smooth animations. Integrated EmailJS for a functional contact section, enabling seamless communication. Designed with a responsive layout to enhance user experience across all devices.',
+
+    subdesc: 'Technologies: React.js, Tailwind CSS, Framer Motion, EmailJS, HTML5, CSS3.',
+
+    href: 'https://portfolio-1-gilt-psi.vercel.app/#Homepage',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    logo: '/assets/ji.jpg',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -132,13 +133,13 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
+    title: 'Authentication Page (Work On Pending..)',
     desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
     subdesc:
       'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
     href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
     texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+    logo: '/assets/lock.jpg',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -171,10 +172,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+    title: 'TODO list',
+    desc: 'Developed a responsive and interactive TODO list web application using React.js, JavaScript, and CSS, implementing efficient state management and a user-friendly interface to enhance task organization and productivity.',
+
+    subdesc: 'Technologies: React.js, JavaScript, HTML5, CSS3.',
+
     href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
@@ -207,43 +209,7 @@ export const myProjects = [
       },
     ],
   },
-  {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
+ 
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -259,30 +225,21 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 
 export const workExperiences = [
   {
-    id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
-    animation: 'victory',
-  },
+  id: 1,
+  name: 'VCHART',
+  pos: 'Medical billing',
+  duration: '2022 - Present',
+  title: "VChart Services is a revenue cycle management services company that provides medical insurance claim processing solutions.\n• Medical Billing Executive, VChart Pvt. Ltd. | July 2022 – Apr 2025.\nManaged end-to-end medical billing for a U.S.-based health insurance client and denial resolution. Ensured accuracy, compliance, and timely processing. Recognized as a Top 2 Performer in April 2025 for outstanding performance.",
+  icon: '/assets/framer.svg',
+  animation: 'victory',
+}
+,
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'Mern Stack',
+    pos: 'Project Experience',
+    title: "Aspiring Full Stack Developer eager to leverage foundational knowledge in software development. Enthusiastic about crafting efficient andresponsive web applications. Seeking a Full Stack Developer role to enhance Full Stack Developer at Full Stack Developer through a commitment to continuous learning and collaboration.",
+    icon: '/assets/mern2.png',
     animation: 'clapping',
-  },
-  {
-    id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
-    animation: 'salute',
-  },
+  }
 ];

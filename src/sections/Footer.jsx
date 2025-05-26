@@ -9,17 +9,19 @@ const Footer = () => {
 
       <div className="flex gap-3">
         <div className="social-icon">
-          <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
+          <a href="https://github.com/Joel-stoic"  className="w-1/2 h-1/2"><img src="/assets/github.svg" alt="github" /></a>
+          
         </div>
         <div className="social-icon">
           <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
         </div>
         <div className="social-icon">
-          <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
+          <a href="https://www.instagram.com/joel_immanual?igsh=cGE0aWptcGt5aG5y&utm_source=qr" className="w-1/2 h-1/2"><img src="/assets/instagram.svg" alt="instagram"  /></a>
+          
         </div>
       </div>
 
-      <p className="text-white-500">© 2024 Adrian Hajdin. All rights reserved.</p>
+      <p className="text-white-500">© 2025 Joel Immanual. All rights reserved.</p>
     </footer>
   );
 };
