@@ -23,10 +23,9 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Joel Immanuak</p>
+              <p className="grid-headtext">Hi, I’m Joel <span className='text-gray-400'> Immanual</span> </p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+                Aspiring Full Stack Developer eager to leverage foundational knowledge in software development. Enthusiastic about crafting efficient andresponsive web applications. Seeking a Full Stack Developer role to enhance Full Stack Developer at Full Stack Developer through a commitment to continuous learning and collaboration.
               </p>
             </div>
           </div>
