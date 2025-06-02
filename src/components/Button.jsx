@@ -1,6 +1,24 @@
-const Button = ({ name, isBeam = false, containerClass }) => {
+const Button = ({ name, isBeam = false, containerClass, href }) => {
+  const ButtonTag = href ? 'a' : 'button';
+  
+  const handleClick = (e) => {
+    if (href?.startsWith('/#')) {
+      e.preventDefault();
+      const targetId = href.replace('/#', '');
+      const element = document.getElementById(targetId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
+  
   return (
-    <button className={`btn ${containerClass}`}>
+    <ButtonTag 
+      href={href} 
+      onClick={handleClick}
+      className={`btn ${containerClass}`}
+      {...(href && !href.startsWith('/#') && { target: "_blank", rel: "noopener noreferrer" })}
+    >
       {isBeam && (
         <span className="relative flex h-3 w-3">
           <span className="btn-ping"></span>
@@ -8,7 +26,7 @@ const Button = ({ name, isBeam = false, containerClass }) => {
         </span>
       )}
       {name}
-    </button>
+    </ButtonTag>
   );
 };
 

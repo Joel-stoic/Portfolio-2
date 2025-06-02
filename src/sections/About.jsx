@@ -70,9 +70,15 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I’m based in Coimbatore, Tamil Nadu, and open to remote work worldwide..</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <p className="grid-headtext">I&apos;m very flexible with time zone communications & locations</p>
+              <p className="grid-subtext">I&apos;m based in Coimbatore, Tamil Nadu, and open to remote work worldwide..</p>
+              
+              <Button 
+                name="Contact Me" 
+                isBeam 
+                containerClass="w-full mt-10"
+                href={"/#contact"}
+              />
             </div>
           </div>
         </div>
