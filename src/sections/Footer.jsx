@@ -13,7 +13,7 @@ const Footer = () => {
           
         </div>
         <div className="social-icon">     
-          <a href="https://x.com/joel_immanual?s=21" className="w-1/2 h-1/2"><img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" /></a>
+          <a href="https://x.com/joel_immanual?s=21" className="w-1/2 h-1/2"><img src="/assets/twitter.svg" alt="twitter"/></a>
         </div>
         <div className="social-icon">
           <a href="https://www.instagram.com/joel_immanual?igsh=cGE0aWptcGt5aG5y&utm_source=qr" className="w-1/2 h-1/2"><img src="/assets/instagram.svg" alt="instagram"  /></a>
